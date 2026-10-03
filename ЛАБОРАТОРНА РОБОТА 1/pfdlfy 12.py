@@ -1,0 +1,6 @@
+a = int (input ()
+print (f"{a: ,}")
+b = int(input())
+print (f"(b: ,}")
+c = int (input())
+print (f" (c:,}")
