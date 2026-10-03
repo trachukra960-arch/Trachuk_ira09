@@ -1,0 +1,6 @@
+a = input()
+print (a.isdigit()
+b = input()
+print(b.isdigit())
+c = input)
+print(c.isdigit)
