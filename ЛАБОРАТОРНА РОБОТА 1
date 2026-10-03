@@ -1,3 +1,2 @@
-Завдая 17
 symbol = input()
 print (ord (symbol))
