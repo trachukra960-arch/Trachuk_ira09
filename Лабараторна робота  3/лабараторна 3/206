@@ -1,0 +1,7 @@
+n = int(input())
+s = 0 
+for i in range(n):
+    grade = int(input())
+    s += grade
+average = s / n
+print(f"{average:.2f}")
