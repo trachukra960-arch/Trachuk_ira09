@@ -1,0 +1,12 @@
+m = int(input())
+s = input().split()
+line = ""
+for word in s:
+    if len(line) + len(word) + 1 <= m:
+        if line:
+            line += " "
+        line += word
+    else:
+        print(line)
+        line = word
+print(line)
