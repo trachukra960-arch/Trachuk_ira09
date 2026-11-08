@@ -1,0 +1,9 @@
+n = int(input())
+s = input()
+result = ""
+for x in s:
+    a =  ord(x)
+    if 0x1F600 <= a <= 0x1F64F:
+        a = (a - 0x1F600 + n) % 80 + 0x1F600
+    result += chr(a)
+print(result)

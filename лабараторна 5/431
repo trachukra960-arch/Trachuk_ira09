@@ -1,0 +1,8 @@
+a = list(map(int, input().split()))
+n = int(input())
+for x in a:
+    if x == n or x == 0:
+        break
+    if x % 2 == 0:
+        print(x)
+        
