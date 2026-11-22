@@ -1,0 +1,13 @@
+a = input()
+b = input()
+text1 = input()
+text2 = input()
+
+encrypt = dict(zip(a, b))
+decrypt = dict(zip(b, a))
+
+result1 = ''.join(encrypt[ch] for ch in text1)
+result2 = ''.join(decrypt[ch] for ch in text2)
+
+print(result1)
+print(result2)

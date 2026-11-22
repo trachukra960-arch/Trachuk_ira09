@@ -1,0 +1,10 @@
+movies = {
+    'Iron Man' : 2008,
+    'Thor' : 2011,
+    'Guardians of the Galaxy' : 2014,
+    'Avengers:Endgame' : 2019
+}
+for key in sorted(movies):
+     print((key, movies[key]), end=' ')
+     
+
